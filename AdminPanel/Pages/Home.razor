@@ -1,0 +1,44 @@
+@page "/"
+
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fab fa-dashcube fa-fw"></i> &nbsp; DASHBOARD
+    </h3>
+    <p class="text-justify">
+        Welcome to the Admin Panel built with Blazor WebAssembly 8.0. This application demonstrates:
+    </p>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card bg-dark text-light mb-3">
+                <div class="card-header roboto-medium">
+                    <i class="fas fa-info-circle"></i> Features Implemented
+                </div>
+                <div class="card-body">
+                    <ul class="roboto-condensed-light">
+                        <li><strong>Blazor WebAssembly 8.0:</strong> Modern single-page application framework</li>
+                        <li><strong>Clean Architecture:</strong> Proper separation of concerns with Models, Services, and Components</li>
+                        <li><strong>API Integration:</strong> Fetches users from JSONPlaceholder API</li>
+                        <li><strong>Delete Confirmation:</strong> Shared component for delete operations</li>
+                        <li><strong>Local Delete:</strong> Removes users from the UI without API calls</li>
+                        <li><strong>JavaScript Interop:</strong> Loader with 10-second delay and C# callback</li>
+                        <li><strong>Material Design:</strong> Bootstrap Material Design UI</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tile-container">
+        <a href="/listadmin" class="tile">
+            <div class="tile-tittle">Admin List</div>
+            <div class="tile-icon">
+                <i class="fas fa-users"></i>
+                <p>View Users</p>
+            </div>
+        </a>
+    </div>
+</div>

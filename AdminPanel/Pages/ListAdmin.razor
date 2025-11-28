@@ -1,0 +1,141 @@
+@page "/listadmin"
+@using AdminPanel.Models
+@using AdminPanel.Services
+@using AdminPanel.Components.Shared
+@inject IUserService UserService
+@inject IJsInteropService JsInteropService
+
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-users fa-fw"></i> &nbsp; LIST ADMIN
+    </h3>
+    <p class="text-justify">
+        This page displays all users retrieved from the JSONPlaceholder API. You can delete users locally (without API calls) and test the JavaScript interop with the loader button.
+    </p>
+</div>
+
+<div class="container-fluid">
+    <ul class="full-box list-unstyled page-nav-tabs">
+        <li>
+            <a class="active" href="/listadmin"><i class="fas fa-users fa-fw"></i> &nbsp; LIST ADMIN</a>
+        </li>
+    </ul>
+</div>
+
+<!-- Test Loader Button -->
+<div class="container-fluid mb-3">
+    <button type="button" class="btn btn-primary roboto-condensed-regular" @onclick="ShowLoader">
+        <i class="fas fa-spinner"></i> Test Loader (10 seconds)
+    </button>
+</div>
+
+<!-- Content -->
+<div class="container-fluid">
+    @if (isLoading)
+    {
+        <div class="text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <p class="mt-2">Loading users...</p>
+        </div>
+    }
+    else if (users == null || !users.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            No users found.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-dark table-sm">
+                <thead>
+                    <tr class="text-center roboto-medium">
+                        <th>#</th>
+                        <th>NAME</th>
+                        <th>USERNAME</th>
+                        <th>EMAIL</th>
+                        <th>CITY</th>
+                        <th>DELETE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in users)
+                    {
+                        <tr class="text-center">
+                            <td>@user.Id</td>
+                            <td>@user.Name</td>
+                            <td>@user.Username</td>
+                            <td>@user.Email</td>
+                            <td>@user.Address.City</td>
+                            <td>
+                                <button type="button" class="btn btn-warning" @onclick="() => ShowDeleteDialog(user)">
+                                    <i class="far fa-trash-alt"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<!-- Delete Confirmation Component -->
+<DeleteConfirmation ShowDialog="showDeleteDialog"
+                    Title="Delete User"
+                    Message="@($"Are you sure you want to delete {selectedUser?.Name}? This action will remove the user from the list locally.")"
+                    OnConfirmCallback="DeleteUser"
+                    OnCancelCallback="CancelDelete" />
+
+@code {
+    private List<User>? users;
+    private bool isLoading = true;
+    private bool showDeleteDialog = false;
+    private User? selectedUser;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadUsers();
+    }
+
+    private async Task LoadUsers()
+    {
+        isLoading = true;
+        users = await UserService.GetUsersAsync();
+        isLoading = false;
+    }
+
+    private void ShowDeleteDialog(User user)
+    {
+        selectedUser = user;
+        showDeleteDialog = true;
+    }
+
+    private Task DeleteUser()
+    {
+        if (selectedUser != null && users != null)
+        {
+            users.Remove(selectedUser);
+            Console.WriteLine($"User {selectedUser.Name} deleted locally");
+        }
+        showDeleteDialog = false;
+        selectedUser = null;
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
+
+    private Task CancelDelete()
+    {
+        showDeleteDialog = false;
+        selectedUser = null;
+        return Task.CompletedTask;
+    }
+
+    private async Task ShowLoader()
+    {
+        await JsInteropService.ShowLoaderAsync();
+    }
+}

@@ -1,0 +1,49 @@
+@if (ShowDialog)
+{
+    <div class="modal fade show d-block" tabindex="-1" role="dialog" style="background-color: rgba(0,0,0,0.5);">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title roboto-medium">@Title</h5>
+                    <button type="button" class="close" @onclick="OnCancel">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>@Message</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary roboto-condensed-regular" @onclick="OnCancel">Cancel</button>
+                    <button type="button" class="btn btn-danger roboto-condensed-regular" @onclick="OnConfirm">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public bool ShowDialog { get; set; }
+
+    [Parameter]
+    public string Title { get; set; } = "Confirm Delete";
+
+    [Parameter]
+    public string Message { get; set; } = "Are you sure you want to delete this item?";
+
+    [Parameter]
+    public EventCallback OnConfirmCallback { get; set; }
+
+    [Parameter]
+    public EventCallback OnCancelCallback { get; set; }
+
+    private async Task OnConfirm()
+    {
+        await OnConfirmCallback.InvokeAsync();
+    }
+
+    private async Task OnCancel()
+    {
+        await OnCancelCallback.InvokeAsync();
+    }
+}

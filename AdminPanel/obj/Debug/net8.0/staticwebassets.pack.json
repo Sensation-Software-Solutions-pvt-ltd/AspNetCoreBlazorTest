@@ -1,0 +1,221 @@
+{
+  "Files": [
+    {
+      "Id": "/workspace/AdminPanel/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/workspace/AdminPanel/obj/Debug/net8.0/compressed/f2luml20w0.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/workspace/AdminPanel/obj/Debug/net8.0/scopedcss/bundle/AdminPanel.styles.css",
+      "PackagePath": "staticwebassets/AdminPanel.styles.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/assets/avatar/Avatar.png",
+      "PackagePath": "staticwebassets/assets/avatar/Avatar.png"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/all.css",
+      "PackagePath": "staticwebassets/css/all.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/bootstrap-material-design.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap-material-design.min.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets/css/jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/normalize.css",
+      "PackagePath": "staticwebassets/css/normalize.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/css/sweetalert2.min.css",
+      "PackagePath": "staticwebassets/css/sweetalert2.min.css"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/js/blazor-interop.js",
+      "PackagePath": "staticwebassets/js/blazor-interop.js"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/js/bootstrap-material-design.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap-material-design.min.js"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/js/jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets/js/jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/js/jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets/js/jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/js/popper.min.js",
+      "PackagePath": "staticwebassets/js/popper.min.js"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/js/sweetalert2.min.js",
+      "PackagePath": "staticwebassets/js/sweetalert2.min.js"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/roboto-medium-webfont.woff",
+      "PackagePath": "staticwebassets/webfonts/roboto-medium-webfont.woff"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/roboto-medium-webfont.woff2",
+      "PackagePath": "staticwebassets/webfonts/roboto-medium-webfont.woff2"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/robotocondensed-light-webfont.ttf",
+      "PackagePath": "staticwebassets/webfonts/robotocondensed-light-webfont.ttf"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/robotocondensed-light-webfont.woff",
+      "PackagePath": "staticwebassets/webfonts/robotocondensed-light-webfont.woff"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/robotocondensed-light-webfont.woff2",
+      "PackagePath": "staticwebassets/webfonts/robotocondensed-light-webfont.woff2"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/robotocondensed-regular-webfont.woff",
+      "PackagePath": "staticwebassets/webfonts/robotocondensed-regular-webfont.woff"
+    },
+    {
+      "Id": "/workspace/AdminPanel/wwwroot/webfonts/robotocondensed-regular-webfont.woff2",
+      "PackagePath": "staticwebassets/webfonts/robotocondensed-regular-webfont.woff2"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.AdminPanel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.AdminPanel.props",
+      "PackagePath": "build\\AdminPanel.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AdminPanel.props",
+      "PackagePath": "buildMultiTargeting\\AdminPanel.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AdminPanel.props",
+      "PackagePath": "buildTransitive\\AdminPanel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

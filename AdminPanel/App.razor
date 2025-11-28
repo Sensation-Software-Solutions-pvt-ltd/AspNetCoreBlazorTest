@@ -1,0 +1,21 @@
+@using AdminPanel.Layout
+
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(AdminLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <PageTitle>Not found</PageTitle>
+        <LayoutView Layout="@typeof(AdminLayout)">
+            <div class="full-box page-header">
+                <h3 class="text-left">
+                    <i class="fas fa-exclamation-triangle fa-fw"></i> &nbsp; PAGE NOT FOUND
+                </h3>
+                <p class="text-justify">
+                    Sorry, there's nothing at this address.
+                </p>
+            </div>
+        </LayoutView>
+    </NotFound>
+</Router>
