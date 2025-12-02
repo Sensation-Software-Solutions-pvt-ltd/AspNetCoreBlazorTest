@@ -1,26 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sahil Kapoor\\Blazor\\AspNetCoreBlazorTest\\AdminPanel\\AdminPanel.csproj": {}
+    "D:\\OtherProjects\\AspNetCoreBlazorTest\\AdminPanel\\AdminPanel.csproj": {}
   },
   "projects": {
-    "D:\\Sahil Kapoor\\Blazor\\AspNetCoreBlazorTest\\AdminPanel\\AdminPanel.csproj": {
+    "D:\\OtherProjects\\AspNetCoreBlazorTest\\AdminPanel\\AdminPanel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sahil Kapoor\\Blazor\\AspNetCoreBlazorTest\\AdminPanel\\AdminPanel.csproj",
+        "projectUniqueName": "D:\\OtherProjects\\AspNetCoreBlazorTest\\AdminPanel\\AdminPanel.csproj",
         "projectName": "AdminPanel",
-        "projectPath": "D:\\Sahil Kapoor\\Blazor\\AspNetCoreBlazorTest\\AdminPanel\\AdminPanel.csproj",
-        "packagesPath": "C:\\Users\\skapoor\\.nuget\\packages\\",
-        "outputPath": "D:\\Sahil Kapoor\\Blazor\\AspNetCoreBlazorTest\\AdminPanel\\obj\\",
+        "projectPath": "D:\\OtherProjects\\AspNetCoreBlazorTest\\AdminPanel\\AdminPanel.csproj",
+        "packagesPath": "C:\\Users\\lenevo\\.nuget\\packages\\",
+        "outputPath": "D:\\OtherProjects\\AspNetCoreBlazorTest\\AdminPanel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\skapoor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\lenevo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,7 +27,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/AshishKumar227/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -48,7 +46,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -66,13 +64,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.20, )",
+              "version": "[8.0.17, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.9, )",
+              "version": "[9.0.6, )",
               "autoReferenced": true
             }
           },
@@ -89,8 +87,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.20, 8.0.20]"
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
             }
           ],
           "frameworkReferences": {
@@ -98,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
