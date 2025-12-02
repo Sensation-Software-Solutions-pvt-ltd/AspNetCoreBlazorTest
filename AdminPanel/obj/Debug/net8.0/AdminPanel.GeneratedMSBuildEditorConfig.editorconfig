@@ -13,45 +13,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = AdminPanel
 build_property.RootNamespace = AdminPanel
-build_property.ProjectDir = D:\OtherProjects\AspNetCoreBlazorTest\AdminPanel\
+build_property.ProjectDir = D:\Sahil Kapoor\Blazor\AspNetCoreBlazorTest\AdminPanel\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\OtherProjects\AspNetCoreBlazorTest\AdminPanel
+build_property.MSBuildProjectDirectory = D:\Sahil Kapoor\Blazor\AspNetCoreBlazorTest\AdminPanel
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/OtherProjects/AspNetCoreBlazorTest/AdminPanel/App.razor]
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/OtherProjects/AspNetCoreBlazorTest/AdminPanel/Components/Shared/DeleteConfirmation.razor]
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Components/Shared/DeleteConfirmation.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcRGVsZXRlQ29uZmlybWF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/OtherProjects/AspNetCoreBlazorTest/AdminPanel/Layout/AdminLayout.razor]
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Layout/AdminLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFkbWluTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/OtherProjects/AspNetCoreBlazorTest/AdminPanel/Pages/Home.razor]
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Pages/Admin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Pages/Base.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/OtherProjects/AspNetCoreBlazorTest/AdminPanel/Pages/ListAdmin.razor]
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Pages/ListAdmin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdEFkbWluLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/OtherProjects/AspNetCoreBlazorTest/AdminPanel/_Imports.razor]
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Pages/Product.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Pages/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/OtherProjects/AspNetCoreBlazorTest/AdminPanel/Layout/MainLayout.razor]
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-gddkszf8wq
 
-[D:/OtherProjects/AspNetCoreBlazorTest/AdminPanel/Layout/NavMenu.razor]
+[D:/Sahil Kapoor/Blazor/AspNetCoreBlazorTest/AdminPanel/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-g1879fcf8l

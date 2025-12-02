@@ -1,8 +1,10 @@
+/.vs
 .vs/AdminPanel/config/applicationhost.config
 .vs/AdminPanel/FileContentIndex/fee42d6d-8da7-41c0-96ce-3834b4f8499f.vsidx
 .vs/AdminPanel/v17/.suo
 .vs/AdminPanel/v17/DocumentLayout.json
 AdminPanel/AdminPanel.csproj.user
+AdminPanel/bin/Debug/net8.0
 AdminPanel/bin/Debug/net8.0/AdminPanel.dll
 AdminPanel/bin/Debug/net8.0/AdminPanel.pdb
 AdminPanel/bin/Debug/net8.0/AdminPanel.staticwebassets.endpoints.json
@@ -396,6 +398,7 @@ AdminPanel/bin/Debug/net8.0/wwwroot/_framework/WindowsBase.wasm.gz
 AdminPanel/obj/AdminPanel.csproj.nuget.dgspec.json
 AdminPanel/obj/AdminPanel.csproj.nuget.g.props
 AdminPanel/obj/AdminPanel.csproj.nuget.g.targets
+AdminPanel/obj/Debug/net8.0
 AdminPanel/obj/Debug/net8.0/AdminPanel.AssemblyInfo.cs
 AdminPanel/obj/Debug/net8.0/AdminPanel.AssemblyInfoInputs.cache
 AdminPanel/obj/Debug/net8.0/AdminPanel.assets.cache
@@ -631,3 +634,4 @@ AdminPanel/obj/Debug/net8.0/tmp-webcil/AdminPanel.wasm
 AdminPanel/obj/Debug/net8.0/webcil/AdminPanel.wasm
 AdminPanel/obj/project.assets.json
 AdminPanel/obj/project.nuget.cache
+AdminPanel/obj/Debug/net8.0/webcil/System.IO.Compression.ZipFile.wasm
