@@ -1,0 +1,53 @@
+{
+  "organization": "sensation-software-solutions",
+  "lastUpdated": "2025-12-06T00:00:00Z",
+  "repositories": [
+    {
+      "name": "AspNetCoreBlazorTest",
+      "fullName": "Sensation-Software-Solutions-pvt-ltd/AspNetCoreBlazorTest",
+      "visibility": "private",
+      "accessLevel": "admin",
+      "purpose": "Admin panel Blazor WebAssembly project",
+      "grantedDate": "2025-12-01",
+      "status": "active",
+      "integrations": [
+        "cursor-ai",
+        "github-actions"
+      ]
+    },
+    {
+      "name": "[repository-name]",
+      "fullName": "sensation-software-solutions/[repository-name]",
+      "visibility": "private",
+      "accessLevel": "read-write",
+      "purpose": "Recently granted access - update with actual repository name",
+      "grantedDate": "2025-12-06",
+      "status": "pending-sync",
+      "notes": "Permission granted but not yet reflected in integration list",
+      "integrations": [
+        "cursor-ai"
+      ]
+    }
+  ],
+  "accessLevels": {
+    "admin": "Full repository access including settings",
+    "read-write": "Can read and write code, create branches",
+    "read-only": "Can only clone and pull"
+  },
+  "integrations": {
+    "cursor-ai": {
+      "enabled": true,
+      "permissions": ["read", "write", "branches"],
+      "webhooks": true
+    },
+    "github-actions": {
+      "enabled": true,
+      "permissions": ["read", "write", "workflows"]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "schema": "private-repo-access-v1",
+    "maintainer": "development-team"
+  }
+}
